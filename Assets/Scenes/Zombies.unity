@@ -458,7 +458,7 @@ MonoBehaviour:
   velocityEstimator: {fileID: 1213917135}
   sliceableLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8
   crossSectionMaterial: {fileID: 2100000, guid: 5ec1084a7724490438d1131cb1c6a747,
     type: 2}
   right: 1
@@ -1102,7 +1102,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 90, y: 90, z: 90}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -1378,7 +1378,7 @@ MonoBehaviour:
   velocityEstimator: {fileID: 350388579}
   sliceableLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8
   crossSectionMaterial: {fileID: 2100000, guid: 5ec1084a7724490438d1131cb1c6a747,
     type: 2}
   right: 0
