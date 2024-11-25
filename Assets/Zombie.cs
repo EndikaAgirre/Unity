@@ -11,6 +11,9 @@ public class Zombie : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player");
+    }
+    private void Update()
+    {
         agent.SetDestination(player.transform.position);
     }
 }
